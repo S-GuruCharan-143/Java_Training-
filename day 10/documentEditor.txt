@@ -1,0 +1,12 @@
+design document editor where user create different types of document like textdoc, imagedox, spreadsheetdoc
+
+requirement
+1) each document should
+-open
+save
+close
+
+2) different document types behaves differently
+text->shows text content
+image->renders image
+spreadsheet-> 

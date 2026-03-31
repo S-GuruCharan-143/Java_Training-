@@ -1,0 +1,20 @@
+-> design locker system where user can store items securely each locker protect its internal
+   data and controlled opearation 
+
+requitements:
+1) each locker has 
+-lockerid
+-islocked(boolean)
+-pin
+-storeditem
+
+2)opearation
+-storitem(item,pin)
+-retrieveitem(pin)
+-lock()
+-unlock(pin)
+
+3) rules
+-items cannot access directily
+-locker opens only with crt pin 
+-invalid acces should be blocked
