@@ -1,0 +1,6 @@
+try-> execute the risky part of code 
+catch->work when risky part of code fails
+finally-> always execute at last
+throw->used to manually creating an exception
+throws->class might throw a exception
+

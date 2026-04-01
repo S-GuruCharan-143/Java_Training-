@@ -1,0 +1,16 @@
+E-Commerce Order System
+
+design system where user places an order, while ordering system must handle failures 
+using exceptional handling 
+
+System must handle failures using exceptional handling 
+
+1)product out of stock
+2) payment failed 
+3)Order processing failed
+
+classes
+product(name,stock,price)
+user(name,address)
+order(product,user,quantity)
+orderservice(placeorder(order))
