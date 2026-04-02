@@ -1,0 +1,6 @@
+Package-> organizes the class and interface into hierarchical structure
+       -> folders for classes
+    types:
+    1) built-in packages
+    2) user defined package -> reverse domaining names
+    

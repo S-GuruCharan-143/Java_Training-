@@ -1,0 +1,36 @@
+wrapper class-> object representation of primitive datatype
+
+ ex: ArrayList<int> a=new ArrayList<>():
+
+ primitive  :  object
+ 
+ int        :  Integer
+ char       :  Character
+ bool       :  Boolean
+ float      :  Float
+ short      :  Short
+ byte       :  Byte 
+ long       :  Long 
+ double     :  Double
+
+package(wrapper class)-> java.lang
+
+primitive: int a=8;
+wrapper cls: Integer b=new Integer(a); //old(wrong)
+             Integer b=Integer.valueOf(10) -> stores in heap
+ 
+AutoBoxing: int -> Integer
+UnBoxing: Integer -> int
+(complier converts during complilation)
+
+Interger x=100,y=100; (x==y) returns true
+         x=200,y=200; (x==y) returns false  
+Integer stores values -127 to 127 sepeaterly so return true 
+therefore use .equals to compare Integer and other objects
+
+- ArrayList<Integer> list =new ArrayList<>();
+    list.add(10);
+    int i=list.get(10);
+int[] arr=new int[]; -> primitive
+array is faster since ArrayList autoboxes eveyr element and creates a new object.
+

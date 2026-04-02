@@ -1,0 +1,16 @@
+com-ECommerce
+{
+classes:
+-user(name,address)
+-product(name,price)
+-order(user,product,quantity)
+-orderService(order)-service 
+} ->com.ECommerce
+
+> Main->main
+
+o/p:
+username
+product name
+quantity
+totalprice
