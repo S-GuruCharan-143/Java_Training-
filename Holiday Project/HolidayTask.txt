@@ -1,0 +1,24 @@
+Task 60: Online Resume Builder
+
+Problem Statement: Design and implement a online resume builder using Object-Oriented
+Programming principles.
+
+Requirements:
+- Identify core entities and their relationships.
+- Apply Encapsulation to protect data.
+- Use Inheritance for common behaviors.
+- Implement Polymorphism where behavior varies.
+- Use Abstraction to hide complexity.
+
+Expected Classes:
+- Define at least 4–6 classes with proper relationships.
+- Include attributes, constructors, and methods.
+
+Advanced Requirements:
+- Add validation and error handling.
+- Extend system with at least one extra feature.
+
+Deliverables:
+- Class design (UML optional)
+- Java implementation
+- Sample test cases
