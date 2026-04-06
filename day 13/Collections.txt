@@ -1,0 +1,63 @@
+Collections-> is a framework of dynamic data stucture
+ to store and manipulate data efficiently
+
+.                    iterable
+.                       |
+.                       v
+.                    Collection
+.         |               |                 |
+.         v               v                 v
+.        list            queue----         set 
+.     |      |   |         |     |          |
+.     v      |   v         |     v          v
+.    Array   |  linked   <-     dequeue    Hashmap
+.    list    |  list                       HashSet
+.            v
+.          vector(array)
+
+--------------------------
+
+{ class - class &
+  interface - interface -> extends
+
+  class - interface -> implements 
+}
+
+----------------------------
+
+comparing to Array, List have:
+- Easy insertion, deletion
+- dynamic resizing
+ex: default size:10
+    size=old+(old/2)
+    newsize=10+(10/2)=15
+    .
+    .
+    .
+    newsize=15+(15/2)=22
+
+- In-build methods
+- stores wrapper class+ generics(strict datatype)
+
+ex: List<> l=new List<>(); //can store any data
+    l.add(88);
+    l.add("data);
+
+-----------------------------
+
+ArrayList:
+- Ordered data
+- index based accessing
+- can store duplicates
+
+methods:
+-add()
+-get()
+-remove()
+-removeAll()
+-set()
+-contains()
+-clear()
+-size()
+-Collections.sort()
+-Collections.reverse()
