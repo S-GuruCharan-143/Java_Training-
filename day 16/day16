@@ -1,0 +1,17 @@
+Iterator:
+    traversing collection element by element through cursor
+    (moves only forward)
+1) .hasNext()-> checks next element exist or not
+2) .next()-> move cursor to next element
+3) .remove()->remove the element
+
+collection->Iterator->cursor->element
+
+ListIterator:
+-works only with ListIterator
+-moves both forward and backward
+
+Comparable Interface:
+    natrual ordering-default way of shorting
+->compareTo() method
+
